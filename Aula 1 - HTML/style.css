@@ -25,6 +25,9 @@ body {
 
 .apresentacao-conteudo {
         width: 615px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
 }
 
 .apresentacao-conteudo-titulo {
@@ -34,7 +37,7 @@ body {
 
 .apresentacao-conteudo-paragrafo {
         font-size: 36px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat', sans-serif;    
 }
 
 .apresentacao-links {
@@ -51,7 +54,7 @@ body {
         font-size: 24px;
         padding: 21.5px 0;
         text-decoration: none;
-        font-family:'Montserrat', sans-serif;
+        font-family: 'Montserrat', sans-serif; 
 }
 
 .imagem {
